@@ -1,0 +1,130 @@
+.picture-game-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+
+.game-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px ;
+
+}
+
+   
+
+.game{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    
+}
+
+.game:hover{
+    transform: scale(1.02);
+}
+
+.picture-1{
+    background-image: url('https://img5.goodfon.ru/wallpaper/big/5/2c/shliapa-oruzhiia-rockstar-bandit-red-dead-redemption-2-arthu.jpg');
+    background-position: 65% 50%;
+}
+
+.picture-2{
+    background-image: url('https://sm.ign.com/t/ign_br/screenshot/default/07123837773203_5agf.1080.jpg');
+    background-position: 55% 50%;
+}
+
+.picture-3{
+    background-image: url('https://sm.ign.com/t/ign_br/gallery/r/red-dead-r/red-dead-redemption-2-pc-screenshots_b3bx.1080.jpg');
+    background-position: 1% 50%;
+}
+
+.picture-4{
+    background-image: url('https://images.hdqwalls.com/download/arthur-morgan-in-red-dead-redemption-2-ls-1125x2436.jpg');
+    background-position: 60% 50%;
+}
+
+.picture-5{
+    background-image: url('https://www.joyscribe.com/wp-content/uploads/2018/01/rdr2-trailer-graphics.png');
+    background-position: 70% 50%;
+}
+
+.picture-6{
+    background-image: url('https://cdn.mos.cms.futurecdn.net/su6qzuJpN8g5DbLtXpvNTU.jpg');
+    background-position: 70% 50%;
+}
+
+
+.picture-7{
+    background-image: url('https://media.rockstargames.com/rockstargames-newsite/uploads/d00445b4a48b2c0a2aa8beb8d6e0c9ff74e01ec6.jpg');
+    background-position: 50% 50%;
+}
+
+.picture-8{
+    background-image: url('https://w0.peakpx.com/wallpaper/535/110/HD-wallpaper-arthur-morgan-red-dead-redemption-2.jpg');
+    background-position: 50% 50%;
+}
+
+.picture-9{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/219/629/87/red-dead-redemption-2-red-dead-redemption-hd-wallpaper-preview.jpg');
+    background-position: 50% 50%;
+}
+
+.picture-10{
+    background-image: url('https://meups.com.br/wp-content/uploads/2018/05/Red-Dead-Redemption-2_7-1.jpg');
+    background-position: 50% 50%;
+}
+
+.picture-11{
+    background-image: url('https://compass-ssl.xbox.com/assets/1d/14/1d14839e-4e17-40e5-a83d-ca225a6c2b2d.jpg?n=Red-Dead-Redemption-II_Gallery-0_1350x759_09.jpg');
+    background-position: 50% 50%;
+}
+
+.picture-12{
+    background-image: url('https://d1lss44hh2trtw.cloudfront.net/assets/article/2018/10/25/all-van-der-linde-camp-upgrades-red-dead-redemption-2_feature.jpg');
+    background-position: 50% 50%;
+}
+
+.footer-navigation {
+    display: none;
+}
+.footer-list{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+   
+}
+
+
+@media(max-width: 768px) {
+
+    .footer-navigation {
+        display: block;
+    }
+    
+    
+       nav{
+            display: none;
+        }
+
+        .game-content {
+            grid-template-columns: 1fr;
+            margin-top: 10%;
+
+        }
+}
+
+    
